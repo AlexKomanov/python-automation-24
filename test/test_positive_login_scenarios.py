@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from pages.login_page import LoginPage
 from pages.products_page import ProductsPage
 
+
 def test_standard_user_login(browser):
     login_page = LoginPage(browser)
 
