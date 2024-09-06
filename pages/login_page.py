@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 
+
 class LoginPage:
 
     def __init__(self, browser):
@@ -7,7 +8,6 @@ class LoginPage:
 
     def open_home_page(self):
         self.browser.get("https://www.saucedemo.com/")
-
 
     def type_username(self, username):
         username_input_field = self.browser.find_element(By.ID, "user-name")  # [id="user-name"] | #user-name
